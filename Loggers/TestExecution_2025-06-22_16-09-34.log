@@ -1,0 +1,6 @@
+2025-06-22 16:09:34,651 - INFO - Report directory created at: C:\Users\sumanta_swain\PycharmProjects\PythonProject\reports
+2025-06-22 16:09:34,663 - INFO - Starting test: test_add_products on browser: firefox
+2025-06-22 16:09:52,119 - INFO - Navigating to https://www.saucedemo.com/
+2025-06-22 16:09:53,042 - INFO - Using credentials: standard_user / ************
+2025-06-22 16:09:53,043 - INFO - Logging in to the Sauce Demo site...
+2025-06-22 16:09:57,421 - INFO - Finished test: test_add_products and closed browser

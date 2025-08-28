@@ -1,0 +1,15 @@
+2025-06-24 12:51:03,284 - INFO - Report directory created at: C:\Users\sumanta_swain\PycharmProjects\PythonProject\reports
+2025-06-24 12:51:03,331 - INFO - Starting test: test_login_scenario[valid_user] on browser: chrome
+2025-06-24 12:51:08,729 - INFO - Starting login test for user type: valid_user
+2025-06-24 12:51:08,729 - INFO - Navigating to https://www.saucedemo.com/
+2025-06-24 12:51:11,141 - INFO - Using credentials: username / ********
+2025-06-24 12:51:11,141 - INFO - login to the sauce-lab page
+2025-06-24 12:51:11,645 - INFO - Login successful. 'Products' title is visible.
+2025-06-24 12:51:14,159 - INFO - Finished test: test_login_scenario[valid_user] and closed browser
+2025-06-24 12:51:14,163 - INFO - Starting test: test_login_scenario[invalid_user] on browser: chrome
+2025-06-24 12:51:17,551 - INFO - Starting login test for user type: invalid_user
+2025-06-24 12:51:17,551 - INFO - Navigating to https://www.saucedemo.com/
+2025-06-24 12:51:19,926 - INFO - Using credentials: username / ********
+2025-06-24 12:51:19,926 - INFO - login to the sauce-lab page
+2025-06-24 12:51:30,687 - INFO - Invalid login handled correctly. 'Products' title not visible.
+2025-06-24 12:51:33,172 - INFO - Finished test: test_login_scenario[invalid_user] and closed browser

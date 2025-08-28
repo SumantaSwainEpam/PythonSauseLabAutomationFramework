@@ -1,0 +1,14 @@
+2025-06-22 13:10:21,069 - INFO - Starting test: test_login_scenario[valid_user] on browser: chrome
+2025-06-22 13:10:26,955 - INFO - Starting login test for user type: valid_user
+2025-06-22 13:10:26,956 - INFO - Navigate to https://www.saucedemo.com/
+2025-06-22 13:10:27,448 - INFO - Using credentials: username / ********
+2025-06-22 13:10:27,448 - INFO - login to the sauce-lab page
+2025-06-22 13:10:27,936 - INFO - Login successful. 'Products' title is visible.
+2025-06-22 13:10:30,252 - INFO - Finished test: test_login_scenario[valid_user] and closed browser
+2025-06-22 13:10:30,260 - INFO - Starting test: test_login_scenario[invalid_user] on browser: chrome
+2025-06-22 13:10:36,486 - INFO - Starting login test for user type: invalid_user
+2025-06-22 13:10:36,487 - INFO - Navigate to https://www.saucedemo.com/
+2025-06-22 13:10:37,018 - INFO - Using credentials: username / ********
+2025-06-22 13:10:37,019 - INFO - login to the sauce-lab page
+2025-06-22 13:10:47,580 - INFO - Invalid login handled correctly. 'Products' title not visible.
+2025-06-22 13:10:51,066 - INFO - Finished test: test_login_scenario[invalid_user] and closed browser
