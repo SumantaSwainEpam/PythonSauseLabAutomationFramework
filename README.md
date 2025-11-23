@@ -16,5 +16,41 @@ This project is a comprehensive automation testing framework built using the Pyt
 - **Organized Test Artifacts:** Each test execution generates timestamped reports with logs and screenshots in structured directories.
 - **Scalability:** Ready for easy extension with new page objects, tests, and business workflows.
 
+## Project Structure
 
+Overview of key folders and files in this repository:
+
+- config/
+  - testdata.yaml — Test data and configuration values.
+- drivers/
+  - driver_factory.py — WebDriver initialization and teardown logic.
+- Loggers/
+  - (log files output directory)
+- pages/
+  - add_product.py — Page Object for adding products.
+  - base_page.py — Common page utilities and base methods.
+  - login_page.py — Page Object for login flows.
+- reports/
+  - (generated HTML reports)
+- screenshots/
+  - (captured screenshots for failed tests)
+- tests/
+  - test_addProduct.py — Test cases for adding products.
+  - test_login.py — Test cases for login.
+- utilities/
+  - data_reader.py — Helpers for loading test data.
+  - logger_manager.py — Centralized logging configuration.
+  - login_helper.py — Reusable login helper functions.
+  - report_manager.py — Report directory and metadata management.
+  - screenshots.py — Screenshot capture utilities.
+- conftest.py — Pytest configuration, fixtures, and hooks.
+- requirements.txt — Python dependencies for the project.
+- README.md — Project documentation.
+
+Note:
+- A local virtual environment (e.g., .venv/) and external libraries are environment-specific and typically not committed.
+
+## Author
+
+- Sumanta Swain 
 
