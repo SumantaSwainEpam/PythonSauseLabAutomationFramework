@@ -1,5 +1,4 @@
 from threading import Thread
-
 import pytest
 import os
 from datetime import datetime
@@ -10,7 +9,7 @@ from utilities.logger_manager import LoggerManager
 
 pytest_html = None
 
-# Create report directory and log it
+# Create a report directory and log it
 report_dir = ReportManager.create_report_directory()
 logger = LoggerManager.get_logger("TestExecution")
 logger.info(f"Report directory created at: {report_dir}")
