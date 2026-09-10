@@ -29,3 +29,5 @@ class LoginPage(BasePage):
         except TimeoutException:
             return False
 
+    def get_the_length_of_password(self):
+        return len(self.PASSWORD.text)
